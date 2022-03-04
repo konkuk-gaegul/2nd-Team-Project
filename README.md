@@ -18,26 +18,54 @@ Welcome to konkuk-gaegul's Repository Of Second Team Project
 
 ## Feature Engineering
 
+### deleted features
+- index
+- FLAG_MOBIL : 모든 값이 1, 분별력 상실
+- child_num : familiy_size에 포함
+
 ### categorical features
-- 'gender'
-- 'car'
-- 'reality'
-- 'income_type'
-- 'edu_type'
-- 'family_type'
-- 'house_type'
-- 'occyp_type'
-- 'ID' : 중복된 데이터에 한해, 기존 변수를 합하여 주민등록번호와 같은 효과를 냄
-- 'G_C_R' : gender + car + reality
-- 'I_O_E' : income_type + occpy_type + edu_type
-- 'F_H' : family_type + house_type
+- gender : 기본 변수
+- car : 기본 변수
+- reality : 기본 변수
+- income_type : 기본 변수
+- edu_type : 기본 변수
+- family_type : 기본 변수
+- house_type : 기본 변수
+- occyp_type : 기본 변수
+- ID : 중복된 데이터에 한해, 기존 변수를 합하여 주민등록번호와 같은 효과를 냄
+- G_C_R : gender + car + reality
+- I_O_E : income_type + occpy_type + edu_type
+- F_H : family_type + house_type
 
 ### numerical features
-- 'income_total'
-- 'DAYS_BIRTH'
-- 'DAYS_EMPLOYED'
-- 'work_phone'
-- 'phone'
-- 'email'
-- 'family_size'
-- 'begin_month'
+- income_total : 기본 변수
+- DAYS_BIRTH : 기본 변수
+- DAYS_EMPLOYED : 기본 변수
+- work_phone : 기본 변수
+- phone : 기본 변수
+- email : 기본 변수
+- family_size : 기본 변수
+- begin_month : 기본 변수
+
+## Machine Learing Model
+- Logistic Regression
+- Catboost
+
+## Cross Validation
+- 분류 모형에서만 사용할 수 있는 StratifiedKFold 사용
+- Parmeters
+  - n_splits : 5 ~ 15까지 반복 수행했을 때 15에서 제일 좋은 성능을 냄
+  - shuffle  : True
+ 
+## HyperParameter
+- 첫 모델을 기준으로 만들기 위해 Default Parameter로 모델링 진행
+- CatBoost는 Parameter로 cat_features가 존재
+  - categorical_feature의 중요성을 인지함
+  - G_C_R , I_O_E , F_H 변수 생성 및 Parameter 지정
+- Optuna Library 이용하여 Best Parmeter 추출
+  - 최고점수 달성
+
+# 출처
+- CatBoost Classifier
+  - https://catboost.ai/en/docs/concepts/python-reference_catboostclassifier
+
