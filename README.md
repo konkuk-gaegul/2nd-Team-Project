@@ -17,17 +17,27 @@ Welcome to konkuk-gaegul's Repository Of Second Team Project
     - DAYS or weeks 값이 자료 수집일 기준, 과거이기 때문에 음수를 갖는다.
 
 ## Feature Engineering
+
 ### categorical features
-- 'gender',
-- 'car',
-- 'reality',
-- 'income_type',
-- 'edu_type',
-- 'family_type',
-- 'house_type',
-- 'occyp_type',
-- 'ID',
-- 'G_C_R',
-- 'I_O_E',
-- 'F_H'
+- 'gender'
+- 'car'
+- 'reality'
+- 'income_type'
+- 'edu_type'
+- 'family_type'
+- 'house_type'
+- 'occyp_type'
+- 'ID' : 중복된 데이터에 한해, 기존 변수를 합하여 주민등록번호와 같은 효과를 냄
+- 'G_C_R' : gender + car + reality
+- 'I_O_E' : income_type + occpy_type + edu_type
+- 'F_H' : family_type + house_type
+
 ### numerical features
+- 'income_total'
+- 'DAYS_BIRTH'
+- 'DAYS_EMPLOYED'
+- 'work_phone'
+- 'phone'
+- 'email'
+- 'family_size'
+- 'begin_month'
