@@ -48,6 +48,7 @@ Welcome to konkuk-gaegul's Repository Of Second Team Project
 - begin_month : 기본 변수
 
 ## Machine Learing Model
+- 팀원 별로 각자 다른 ML 알고리즘 사용
 - Logistic Regression
 - Catboost
 
