@@ -18,6 +18,12 @@ Welcome to konkuk-gaegul's Repository Of Second Team Project
 
 ## Feature Engineering
 
+### 결측치 처리
+- occyp_type의 결측치 약 8000개 존재
+- 이 중 절반 이상의 수입원(income_type)은 연금 
+  - 해당 데이터에 한하여 결측치를 retiree(퇴직자)로 대체
+- 나머지는 수입원이 존재하여 No reponse(무응답)으로 
+
 ### deleted features
 - index
 - FLAG_MOBIL : 모든 값이 1, 분별력 상실
@@ -33,9 +39,10 @@ Welcome to konkuk-gaegul's Repository Of Second Team Project
 - house_type : 기본 변수
 - occyp_type : 기본 변수
 - ID : 중복된 데이터에 한해, 기존 변수를 합하여 주민등록번호와 같은 효과를 냄
-- G_C_R : gender + car + reality
-- I_O_E : income_type + occpy_type + edu_type
-- F_H : family_type + house_type
+- feature_set_4의 파생변수
+  - G_C_R : gender + car + reality
+  - I_O_E : income_type + occpy_type + edu_type
+  - F_H : family_type + house_type
 
 ### numerical features
 - income_total : 기본 변수
