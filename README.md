@@ -1,5 +1,6 @@
 # 2nd-Team-Project
-Welcome to gaegul's Repository Of Second Team Project
+DACON PUBLIC 12위, Log Loss : 0.66659
+멀티캠퍼스 데이터사이언스 빅데이터활용 프로젝트 최우수상
 
 # DACON 신용카드 연체 예측 AI 경진대회
 - 대회는 2021년 5월에 종료, 이 모델은 2022년 3월에 생성하였다.
