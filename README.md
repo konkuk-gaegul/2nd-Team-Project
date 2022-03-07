@@ -1,5 +1,5 @@
 # 2nd-Team-Project
-Welcome to konkuk-gaegul's Repository Of Second Team Project
+Welcome to gaegul's Repository Of Second Team Project
 
 # DACON 신용카드 연체 예측 AI 경진대회
 - 대회는 2021년 5월에 종료, 이 모델은 2022년 3월에 생성하였다.
