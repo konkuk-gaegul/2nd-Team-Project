@@ -54,6 +54,10 @@ Welcome to konkuk-gaegul's Repository Of Second Team Project
 - family_size : 기본 변수
 - begin_month : 기본 변수
 
+### 정규화
+- 분포가 일정하지 않은 변수에 대해서 정규화 진행
+  - 로그, 제곱 그리고 StandardScale
+
 ## Machine Learing Model
 - 팀원 별로 각자 다른 ML 알고리즘 사용
 - Logistic Regression
