@@ -80,6 +80,7 @@ Welcome to konkuk-gaegul's Repository Of Second Team Project
   - 최고점수(14등 -> 12등) 달성
 
 ## BenchMark
+- Train 자료의 Log-Loss만을 나타낸 
 |feature_set|model|K_folds|Los-Loss|
 |------|------|---|---|
 |set 2|CatBoost|15|0.664357|
