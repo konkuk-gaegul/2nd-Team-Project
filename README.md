@@ -80,11 +80,11 @@ Welcome to konkuk-gaegul's Repository Of Second Team Project
   - 최고점수(14등 -> 12등) 달성
 
 ## BenchMark
-|제목|내용|설명|
-|------|---|---|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
-|테스트1|테스트2|테스트3|
+|feature_set|model|K_folds|Los-Loss|
+|------|------|---|---|
+|set 2||CatBoost|15|0.664357|
+|set 3||CatBoost|15|0.664093|
+|set 4||CatBoost|15|0.662465|
 
 # 출처
 - CatBoost Classifier
