@@ -59,12 +59,14 @@ Welcome to konkuk-gaegul's Repository Of Second Team Project
   - shuffle  : True
  
 ## HyperParameter
-- 첫 모델을 기준으로 만들기 위해 Default Parameter로 모델링 진행
+- 첫 모델은 기준을 위해 Default Parameter로 모델링 진행
 - CatBoost는 Parameter로 cat_features가 존재
   - categorical_feature의 중요성을 인지함
   - G_C_R , I_O_E , F_H 변수 생성 및 Parameter 지정
 - Optuna Library 이용하여 Best Parmeter 추출
-  - 최고점수 달성
+  - 최고의 하드웨어 성능을 가진 AWS로 HyperParmeter tuning은 3시간, ML 학습은 1시간 소요
+  - 구글 코랩으로 HyperParmeter tuning은 6시간, ML 학습은 3시간 소요
+  - 최고점수(14등 -> 12등) 달성
 
 # 출처
 - CatBoost Classifier
