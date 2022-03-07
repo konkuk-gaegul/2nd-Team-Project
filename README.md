@@ -82,9 +82,9 @@ Welcome to konkuk-gaegul's Repository Of Second Team Project
 ## BenchMark
 |feature_set|model|K_folds|Los-Loss|
 |------|------|---|---|
-|set 2||CatBoost|15|0.664357|
-|set 3||CatBoost|15|0.664093|
-|set 4||CatBoost|15|0.662465|
+|set 2|CatBoost|15|0.664357|
+|set 3|CatBoost|15|0.664093|
+|set 4|CatBoost|15|0.662465|
 
 # 출처
 - CatBoost Classifier
