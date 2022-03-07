@@ -79,6 +79,13 @@ Welcome to konkuk-gaegul's Repository Of Second Team Project
   - 구글 코랩으로 HyperParmeter tuning은 6시간, ML 학습은 3시간 소요
   - 최고점수(14등 -> 12등) 달성
 
+## BenchMark
+|제목|내용|설명|
+|------|---|---|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
+|테스트1|테스트2|테스트3|
+
 # 출처
 - CatBoost Classifier
   - https://catboost.ai/en/docs/concepts/python-reference_catboostclassifier
