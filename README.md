@@ -91,6 +91,12 @@
 |set 3|CatBoost|15|0.664093|
 |set 4|CatBoost|15|0.662465|
 
+# 기대효과
+
+## 분석을 통한 인사이트 도출
+
+## 향후 
+
 # 출처
 - CatBoost Classifier
   - https://catboost.ai/en/docs/concepts/python-reference_catboostclassifier
