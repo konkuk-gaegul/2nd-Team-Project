@@ -21,9 +21,9 @@
 
 ### 결측치 처리
 - occyp_type의 결측치 약 8000개 존재
-- 이 중 절반 이상의 수입원(income_type)은 연금 
+- 이 중 절반 이상의 수입원(income_type)은 연금 수령
   - 해당 데이터에 한하여 결측치를 retiree(퇴직자)로 대체
-- 나머지는 수입원이 존재하여 No reponse(무응답)으로 
+- 나머지는 수입원이 존재하여 No reponse(무응답)으로 대체
 
 ### deleted features
 - index
