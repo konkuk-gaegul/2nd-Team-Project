@@ -83,7 +83,7 @@
 ## BenchMark
 - Train 자료의 Log-Loss만을 나타냄
 - features set 4에서 가장 좋은 점수를 보여줌
-  - set 2와 3을 거쳐 4가 될 때 까지 categorical feature의 중요성을 느끼고, 파생변수 
+  - set 2와 3을 거쳐 4가 될 때 까지 categorical feature의 중요성을 느끼고, 파생변수 생성
 
 |feature_set|model|K_folds|Los-Loss|
 |------|------|---|---|
