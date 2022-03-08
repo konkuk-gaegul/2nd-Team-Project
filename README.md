@@ -94,8 +94,14 @@
 # 기대효과
 
 ## 분석을 통한 인사이트 도출
-
-## 향후 
+- occyp_type 결측치 처리
+  - 많은 시간을 쏟은 만큼 높은 변수 설명력을 이끌어냈다.
+- 개인을 구분할 수 있는 ID 변수를 생각해낸 팀원의 인사이트가 훌륭했다.
+  - 하지만 새로운 자료가 주어졌을 때, ID변수가 제대로 활약할 수 있을까??
+  
+## 향후 개선사항
+- feature engineering에 비중을 높이다 보니, 다양한 머신러닝 모델을 만들 수 없었다.
+  - CatBoost 외 XGBoost, LightGBM, Stacking Ensemble 알고리즘의 다양한 비교를 못해서 아쉬웠다.
 
 # 출처
 - CatBoost Classifier
