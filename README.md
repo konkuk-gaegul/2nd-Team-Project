@@ -39,11 +39,6 @@
 - family_type : 기본 변수
 - house_type : 기본 변수
 - occyp_type : 기본 변수
-- ID : 중복된 데이터에 한해, 기존 변수를 합하여 주민등록번호와 같은 효과를 냄
-- feature_set_4의 파생변수
-  - G_C_R : gender + car + reality
-  - I_O_E : income_type + occpy_type + edu_type
-  - F_H : family_type + house_type
 
 ### numerical features
 - income_total : 기본 변수
