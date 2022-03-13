@@ -88,7 +88,7 @@
 |feature_set|model|K_folds|Los-Loss|
 |------|------|---|---|
 |set 2|CatBoost|15|0.664357|
-|set 3|CatBoost|15|0.664093|
+|set 3|CatBoost|15|0.667434|
 |set 4|CatBoost|15|0.662465|
 
 # 기대효과
