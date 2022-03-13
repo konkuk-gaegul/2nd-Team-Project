@@ -50,11 +50,16 @@
 - family_size : 기본 변수
 - begin_month : 기본 변수
 
+### 샘플링
+- 신용이 좋을 수록 그 수는 급격히 줄어듬
+- 오버+언더 샘플링을 실시하여 자료의 수 격차를 줄여봄
+- 그러나 과대적합을 피할 수 없음
+
 ### 정규화
 - 분포가 일정하지 않은 변수에 대해서 정규화 진행
   - 로그, 제곱 그리고 StandardScale
 
-## Machine Learing Model
+## Machine Learning Model
 - 팀원 별로 각자 다른 ML 알고리즘 사용
 - Logistic Regression
 - Catboost
