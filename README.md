@@ -85,7 +85,7 @@
 - features set 4에서 가장 좋은 점수를 보여줌
   - set 2와 3을 거쳐 4가 될 때 까지 categorical feature의 중요성을 느끼고, 파생변수 생성
 
-|feature_set|model|K_folds|Los-Loss|
+|feature_set|model|K_folds|Log-Loss|
 |------|------|---|---|
 |set 2|CatBoost|15|0.666855|
 |set 3|CatBoost|15|0.667434|
